@@ -1,1 +1,22 @@
-This is a testing file
+# for reference
+
+To Clone : 
+	 git clone <project GIT url>
+To stage the files:
+	Git add  -options <Filename>
+	options -  -all
+to commit:
+	git commit -m "message"
+to Push the changes to remote repositories
+	git push origin <branchname>
+
+
+To initilise a repository:
+ git init 	-- It will create .git folder in the local.
+
+Then you go to github and create a repositories.  But it is not linked to local repostory
+for that you need to run:
+
+git remote add origin "GIT URL" ex :https://github.com/Sarbjot21/Demo-Template.git
+
+Git push |origin <branch name> | Optional
